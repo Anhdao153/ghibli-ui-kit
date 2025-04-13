@@ -1,0 +1,15 @@
+@import "tailwindcss";
+:root {
+  --color-primary: #6a994e;
+  --color-secondary: #a7c957;
+  --color-background: #f2e8cf;
+  --color-text: #386641;
+  --color-accent: #bc4749;
+  --radius: 12px;
+  --font-sans: "Nunito Sans", sans-serif;
+}
+
+/* body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+} */
