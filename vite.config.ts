@@ -8,6 +8,12 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+      styles: path.resolve(__dirname, "styles"),
+    },
+  },
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),

@@ -3,8 +3,10 @@ import { Card } from "./components/Card";
 import { Input } from "./components/Input";
 
 function App() {
+  // const {styleName} = props;
   return (
-    <div className="min-h-screen bg-[var(--color-background)] text-text flex flex-col gap-4 items-center justify-center p-8">
+    <div className="min-h-screen bg-background text-text flex flex-col gap-4 items-center justify-center p-8">
+      <img src="/ghibli/iconic.png" />
       <Card>
         <h1 className="text-2xl mb-2">Ghibli UI Kit 🌿</h1>
         <Input placeholder="Type something..." />
